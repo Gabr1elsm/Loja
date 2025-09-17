@@ -4,11 +4,29 @@ body{
 }
 
 #principal{
-    width: 900px;
     margin: 0 auto;
 }
 
 #principal #cabecalho{
-    background-color: rgba(11, 110, 150, 0);
+    background-color: rgba(11, 109, 148, 0.836);
+    padding: 10px 0;
+    text-align: center;
 }
 
+.botoes a{
+    transition: backgroud-color 0.3s ease, color 0.3 ease;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 10px, 15px;
+    color: #333;
+}
+
+.botoes :hover{
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
