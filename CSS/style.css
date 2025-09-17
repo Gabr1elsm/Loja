@@ -30,3 +30,17 @@ body{
     color: #fff;
     border-color: #007bff;
 }
+
+#pesquisa input{
+    padding: 5px;
+    width: 300px;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#pesquisa input:focus{
+    border-color: #007bff;
+}
