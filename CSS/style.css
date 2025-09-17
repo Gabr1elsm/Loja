@@ -2,3 +2,13 @@ body{
     font: arial 16px;
     background-color: #d2d2d2c1;
 }
+
+#principal{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#principal #cabecalho{
+    background-color: rgba(11, 110, 150, 0);
+}
+
