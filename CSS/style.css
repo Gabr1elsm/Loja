@@ -1,6 +1,8 @@
 body{
     font: arial 16px;
     background-color: #d2d2d2c1;
+    margin: 0;
+    padding: 0;
 }
 
 #principal{
@@ -11,6 +13,14 @@ body{
     background-color: rgba(11, 109, 148, 0.836);
     padding: 10px 0;
     text-align: center;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #008cba;
 }
 
 .botoes a{
