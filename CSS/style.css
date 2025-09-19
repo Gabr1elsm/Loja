@@ -7,6 +7,7 @@ body{
 
 #principal{
     margin: 0 auto;
+    max-width: 1400px;
 }
 
 #principal #cabecalho{
@@ -69,8 +70,18 @@ body{
     padding: 10px 15px;
     transition: backgroud-color 0.3s ease, color 0.3 ease;
     margin-left: 140px;
+    font: bold;
 }
 
 #menu a:hover{
     color: yellow;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#banner img{
+    width: 1400px;
 }
