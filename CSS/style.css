@@ -27,7 +27,7 @@ body{
 .botoes a{
     transition: backgroud-color 0.3s ease, color 0.3 ease;
     text-decoration: none;
-    background-color: yellow;
+    background-color: white;
     border-radius: 5px;
     margin-left: 10px;
     font-weight: bold;
@@ -112,4 +112,10 @@ body{
     font: bold;
     border-radius: 5px;
     padding: 5px;
+}
+
+.div_produtos h3{
+      background-color: rgba(11, 109, 148, 0.836);
+      color: white;
+      padding: 10px;
 }
