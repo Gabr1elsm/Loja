@@ -82,6 +82,13 @@ body{
     margin: 0 auto;
 }
 
+.container h3{
+    background-color: rgba(11, 109, 148, 0.836);
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+
 #banner img{
     width: 1400px;
 }
@@ -94,6 +101,11 @@ body{
     justify-content: center;
 }
 
+.div_produtos h3{
+    background-color: rgba(11, 109, 148, 0.836);
+    color: white;
+    padding: 10px;
+}
 
 .card-produto{
     background-color: rgba(255, 255, 255, 0.658);
@@ -125,8 +137,3 @@ body{
     background-color: rgb(29, 77, 29);
 }
 
-.div_produtos h3{
-      background-color: rgba(11, 109, 148, 0.836);
-      color: white;
-      padding: 10px;
-}
